@@ -39,21 +39,21 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
-  array.uniq
+  array = array.uniq
   return array
 end
 
 def using_flatten(array)
-  array.flatten
+  array = array.flatten
   return array
 end
 
 def using_delete(array,string)
-  array.delete(string)
+  array = array.delete(string)
   return array
 end
 
 def using_delete_at(array, integer)
-  array.delete_at(integer)
+  array = array.delete_at(integer)
   return array
 end
