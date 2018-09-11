@@ -9,6 +9,16 @@ def using_unshift(array,foo)
 end
 
 def using_pop(array)
-  array.pop
+  foo = array.pop
+  return foo
+end
+
+def pop_with_args(array)
+  array.pop(2)
   return array
+end
+
+def using_shift(array)
+  foo = array.shift
+  return foo
 end
